@@ -1,0 +1,20 @@
+{
+    "name": "hilalahmad0101/blade-ui",
+    "description": "Reusable Laravel UI components using TailwindCSS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "hilalahmad0101\\LaraUI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hilalahmad0101\\LaraUI\\LaraUIServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
